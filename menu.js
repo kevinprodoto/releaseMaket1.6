@@ -85,4 +85,5 @@ fader.addEventListener("click", function () {
     fader.classList.add("fader--disabled");
     fader.classList.remove("fader--active");
     modalMenu.classList.remove("modal-active");
+    html.classList.remove("body-overflow-hidden");
 });
