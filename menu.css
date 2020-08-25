@@ -71,36 +71,36 @@
     margin-bottom: 25px;
     height: 32px;
 }
-.footer {
+.modal-footer {
     position: absolute;
     bottom: 32px;
 }
-.footer__block {
+.modal-footer__block {
     margin-left: 8px;
     width: 312px;
 }
-.footer__button {
+.modal-footer__button {
     margin-left: 16px;
     margin-bottom: 16px;
     margin-right: 0 !important;
 }
-.footer__button:first-child:hover {
+.modal-footer__button:first-child:hover {
     animation-name: call;
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
-.footer__button:nth-child(2):hover {
+.modal-footer__button:nth-child(2):hover {
     animation-name: message;
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
-.footer__button:last-child:hover {
+.modal-footer__button:last-child:hover {
     transform: scale(1.2);
     transition-duration: 0.7s;
 }
-.footer__email {
+.modal-footer__email {
     margin-left: 16px;
     display: block;
     font-size: 16px;
@@ -108,7 +108,7 @@
     font-weight: 500;
     margin-bottom: 12px;
 }
-.footer__number {
+.modal-footer__number {
     margin-left: 16px;
     display: block;
     margin-bottom: 40px;
@@ -117,15 +117,15 @@
     font-weight: bold;
     margin-top: 0;
 }
-.footer__lang {
+.modal-footer__lang {
     padding-left: 7px;
     font-weight: 500;
     bottom: 0px;
 }
-.footer__lang:first-child {
+.modal-footer__lang:first-child {
     padding-left: 16px;
 }
-.footer__lang:hover {
+.modalfooter__lang:hover {
     color: #7E7E82;
     cursor: pointer;
 }
@@ -165,7 +165,7 @@
     }
 }
 @media (max-height: 800px) {
-    .footer {
+    .modal-footer {
         position: relative;
         padding-top: 32px;
     }
