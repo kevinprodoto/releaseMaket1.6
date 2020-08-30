@@ -1,5 +1,5 @@
 let readMore = document.querySelector(".main-brands__read-more");
-let slides = document.querySelectorAll(".swiper-slide");
+let slides = document.querySelectorAll(".main-brands__button");
 let icon = document.querySelector(".main-brands__icon");
 readMore.addEventListener("click", function() {
     if (readMore.textContent === "Показать всё") {
