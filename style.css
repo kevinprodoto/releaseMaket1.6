@@ -743,7 +743,7 @@ a {
 .body-overflow-hidden {
     overflow-y: hidden;
 }
-@media (min-width: 768px) and (max-width: 1119px) {
+@media (min-width: 768px) and (max-width: 1439px) {
      .callback {
         width: 440px;
         right: -440px;
@@ -938,7 +938,7 @@ a {
         text-align: right;
     }
 }
-@media (min-width: 1120px) {
+@media (min-width: 1440px) {
     .modal-menu {
         transform: translate(320px, 0px);
         transition: transform 0.5s ease-in-out, opacity 1s ease-in-out;
