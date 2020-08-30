@@ -1,6 +1,4 @@
-html {
-    overflow: auto;
-}
+
 body {
     margin: 0;
     padding: 0;
@@ -22,6 +20,7 @@ a {
 }
 .fader--active {
     display: flex;
+    position: fixed;
     opacity: 0.9;
 }
 .header {
