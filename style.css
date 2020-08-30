@@ -224,6 +224,9 @@ a {
 .footer__text {
     margin: 0;
 }
+.text-active {
+    display: inline;
+}
 .inactive {
     opacity: 0.2;
 }
@@ -299,6 +302,9 @@ a {
     .main__description {
         flex-wrap: nowrap;
         justify-content: space-between;
+    }
+    .main__text--laptop {
+        display: inline;
     }
     .main__text--desktop {
         display: inline;

@@ -125,7 +125,7 @@
 .modal-footer__lang:first-child {
     padding-left: 16px;
 }
-.modalfooter__lang:hover {
+.modal-footer__lang:hover {
     color: #7E7E82;
     cursor: pointer;
 }
