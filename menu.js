@@ -17,19 +17,16 @@ burgerMobile.addEventListener("click", function () {
     fader.classList.remove("fader--disabled");
     fader.classList.add("fader--active");
     modalMenu.classList.add("modal-active");
-    html.classList.add("body-overflow-hidden");
 });
 burgerLaptop.addEventListener("click", function () {
     fader.classList.remove("fader--disabled");
     fader.classList.add("fader--active");
     modalMenu.classList.add("modal-active");
-    html.classList.add("body-overflow-hidden");
 });
 close.addEventListener("click", function () {
     fader.classList.add("fader--disabled");
     fader.classList.remove("fader--active");
     modalMenu.classList.remove("modal-active");
-    html.classList.remove("body-overflow-hidden");
     feedback.classList.remove("feedback--active");
     callback.classList.remove("callback--active");
 });
@@ -38,7 +35,6 @@ callbackButton.addEventListener("click", function () {
     fader.classList.add("fader--active");
     modalMenu.classList.remove("modal-active");
     callback.classList.add("callback--active");
-    html.classList.add("body-overflow-hidden");
     feedback.classList.remove("feedback--active");
 });
 feedbackButton.addEventListener("click", function () {
@@ -46,7 +42,6 @@ feedbackButton.addEventListener("click", function () {
     fader.classList.add("fader--active");
     modalMenu.classList.remove("modal-active");
     feedback.classList.add("feedback--active");
-    html.classList.add("body-overflow-hidden");
     callback.classList.remove("callback--active");
 });
 callbackHeaderButton.addEventListener("click", function () {
@@ -54,7 +49,6 @@ callbackHeaderButton.addEventListener("click", function () {
     fader.classList.add("fader--active");
     modalMenu.classList.remove("modal-active");
     callback.classList.add("callback--active");
-    html.classList.add("body-overflow-hidden");
     feedback.classList.remove("feedback--active");
 });
 feedbackHeaderButton.addEventListener("click", function () {
@@ -62,20 +56,17 @@ feedbackHeaderButton.addEventListener("click", function () {
     fader.classList.add("fader--active");
     modalMenu.classList.remove("modal-active");
     feedback.classList.add("feedback--active");
-    html.classList.add("body-overflow-hidden");
     callback.classList.remove("callback--active");
 });
 callbackClose.addEventListener("click", function () {
     fader.classList.add("fader--disabled");
     fader.classList.remove("fader--active");
-    html.classList.remove("body-overflow-hidden");
     callback.classList.remove("callback--active");
     feedback.classList.remove("feedback--active");
 });
 feedbackClose.addEventListener("click", function () {
     fader.classList.add("fader--disabled");
     fader.classList.remove("fader--active");
-    html.classList.remove("body-overflow-hidden");
     feedback.classList.remove("feedback--active");
     callback.classList.remove("callback--active");
 });
@@ -85,5 +76,4 @@ fader.addEventListener("click", function () {
     fader.classList.add("fader--disabled");
     fader.classList.remove("fader--active");
     modalMenu.classList.remove("modal-active");
-    html.classList.remove("body-overflow-hidden");
 });
